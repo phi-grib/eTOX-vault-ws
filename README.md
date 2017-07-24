@@ -11,7 +11,7 @@ The current production API is available at http://phi.upf.edu/
 
 The API calls available are documented in:
 
-[API documentation](doc/API_description.md)
+[API description](doc/API_description.md)
 
 The data model of the stored data is:
 
