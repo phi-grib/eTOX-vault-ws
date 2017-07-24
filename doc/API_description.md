@@ -1,7 +1,7 @@
 Obtain the list of all models
 
 http://phi.upf.edu/allmodels/?authkey=xxxxxxxxx (GET)
-
+```json
 [
     {
         modelid: "LQT10",
@@ -13,13 +13,14 @@ http://phi.upf.edu/allmodels/?authkey=xxxxxxxxx (GET)
         modeltitle: "QT prolongation (at 10nM)"
     }
 ]
+```
 
 Obtain model info by modelid
 
 
 http://phi.upf.edu/modelinfo/92?authkey=xxxxxxxxx (GET)
 
-
+```json
 {
     externaltn: "0",
     relatedmodels: "CAV12; HERG4; KCNQ1",
@@ -94,10 +95,13 @@ http://phi.upf.edu/modelinfo/92?authkey=xxxxxxxxx (GET)
                     }
             ]
 }
+```
 
 Obtain model info by tag
 
 http://phi.upf.edu/modelinfo/?authkey=xxxxxxxxx&modeltag=/Toxicity/Organ%20Toxicity/Cardiotoxicity/QT%20Prolongation/1&provider=FIMIM (GET)
+
+```json
 {
     externaltn: "0",
     relatedmodels: "CAV12; HERG4; KCNQ1",
@@ -172,3 +176,4 @@ http://phi.upf.edu/modelinfo/?authkey=xxxxxxxxx&modeltag=/Toxicity/Organ%20Toxic
                 }
             ]
 }
+```
