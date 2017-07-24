@@ -3,6 +3,10 @@ eTOXvault ws RESTful API is a tool that exposes the models developed in the [eTO
 
 ![eTOX logo](http://84.89.134.131/etox-web/img/ETOX_Project_logo.png)
 
+eTOXvault ws RESTful API is developed using [Play Framewok 2.3](https://www.playframework.com/) and [Scala 2.11](https://www.scala-lang.org/) 
+
+[MySQL](https://www.mysql.com/) is used as a database backend.
+
 The current production API is available at http://phi.upf.edu/
 
 The API calls available are documented in:
