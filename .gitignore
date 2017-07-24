@@ -1,2 +1,6 @@
 *.class
 *.log
+conf/etoxvault.properties.prod
+conf/etoxvault.properties.github
+target/*
+

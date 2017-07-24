@@ -1,0 +1,5 @@
+#!/bin/sh
+export JAVA_HOME=/usr/local/jdk1.7.0
+export PATH=$JAVA_HOME:$PATH
+target/universal/stage/bin/etoxvault_ws
+
