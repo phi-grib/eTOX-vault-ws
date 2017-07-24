@@ -3,15 +3,15 @@ Obtain the list of all models
 http://phi.upf.edu/allmodels/?authkey=xxxxxxxxx (GET)
 ```json
 [
-    {
-        modelid: "LQT10",
-        verification_status: "Verified",
-        idmodel: "500",
-        partner: "FIMIM",
-        version: "2",
-        modeltag: "/Toxicity/Organ Toxicity/Cardiotoxicity/QT Prolongation/1",
-        modeltitle: "QT prolongation (at 10nM)"
-    }
+{
+"idmodel": "500",
+"version": "2",
+"verification_status": "Verified",
+"modelid": "LQT10",
+"partner": "FIMIM",
+"modeltitle": "QT prolongation (at 10nM)",
+"modeltag": "/Toxicity/Organ Toxicity/Cardiotoxicity/QT Prolongation/1"
+}
 ]
 ```
 
