@@ -42,7 +42,7 @@ object Application extends Controller {
     val columnCount = metadata.getColumnCount()
     var jsline = ""
 
-    val row = for (i <- 1 to columnCount) yield (metadata.getColumnLabel(i) -> resultSet.getString(i))
+    val row = for (i <- 1 to columnCount) yield ("\""+metadata.getColumnLabel(i)+"\"" -> resultSet.getString(i))
     val mp1 = row.toList.toMap
     println(mp1)
     val mp = if (rec)
