@@ -1,3 +1,26 @@
+Description | Method | Parameters                  |URL example | Example respondes
+------------ | -------------|----------|-------|----------
+Obtain the list of all models | /allmodels | authkey (security key) | http://phi.upf.edu/allmodels/?authkey=xxxxxxxxx 
+Obtain info for a model by modelid | /modelinfo | authkey (security key) <br> modelid (in URL) | http://phi.upf.edu/modelinfo/5000?authkey=xxxxxxxxx 
+Obtain info for a model by modeltag | /modelinfo | authkey (security key) <br> modeltag <br> provider (partner) | http://phi.upf.edu/modelinfo/?authkey=xxxxxxxxx&modeltag=/Toxicity/Organ%20Toxicity/Cardiotoxicity/QT%20Prolongation/1&provider=FIMIM
+
+
+```json [
+    {
+        "idmodel": "500",
+        "version": "2",
+        "verification_status": "Verified",
+        "modelid": "LQT10",
+        "partner": "FIMIM",
+        "modeltitle": "QT prolongation (at 10nM)",
+        "modeltag": "/Toxicity/Organ Toxicity/Cardiotoxicity/QT Prolongation/1"
+    }
+]
+```
+
+Content in the first column | Content in the second column
+
+
 Obtain the list of all models
 
 http://phi.upf.edu/allmodels/?authkey=xxxxxxxxx (GET)
