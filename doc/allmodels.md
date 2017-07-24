@@ -1,4 +1,5 @@
-```json [
+```json 
+[
     {
         "idmodel": "500",
         "version": "2",
