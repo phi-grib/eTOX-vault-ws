@@ -8,6 +8,7 @@ The current production API is available at http://phi.upf.edu/
 The API calls available are documented in:
 
 [API documentation](doc/API_description.md)
+
 The data model of the stored data is:
 
 ![data nodel etox vault](https://github.com/phi-grib/eTOX-vault-ws/blob/master/doc/etox_vault_datamodel_v1.0.png)
